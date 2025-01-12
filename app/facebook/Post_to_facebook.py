@@ -21,6 +21,6 @@ def post_to_facebook(message):
         print("error :",response.json())
 
 if __name__ == "__main__":
-    post_to_facebook("Hello, world!")
+    post_to_facebook("Hello, world! 😊🎉🚀")
 
 
