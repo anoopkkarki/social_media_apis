@@ -42,6 +42,8 @@ def get_long_lived_token():
 
 def check_token_expiry():
     expiry_timestamp = os.getenv("fb_token_expiry")
+    print(expiry_timestamp)
+    print(f'short_lived_token = {short_lived_token}')
     current_time = int(time.time())  # Get current timestamp
     print(f"Current Time: {current_time}")
     if expiry_timestamp:
